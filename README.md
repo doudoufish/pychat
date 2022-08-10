@@ -1,6 +1,6 @@
 # pychat
 * This is a Python chat server, with multiple chat rooms.
-* Partial was originally from https://github.com/dmmiller612/lecture-summarizer.git **
+* Partial was originally from https://github.com/xysun/pychat.git**
 
 # How to use:
 ```
