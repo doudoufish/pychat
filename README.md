@@ -1,5 +1,6 @@
 # pychat
-This is a Python chat server, with multiple chat rooms.
+* This is a Python chat server, with multiple chat rooms.
+* Partial was originally from https://github.com/dmmiller612/lecture-summarizer.git **
 
 # How to use:
 ```
@@ -9,7 +10,13 @@ python3 pychat_client.py [host]
 
 # Once running client, you'll see prompts and instructions.
 ```
-Text following "$" are command-line inputs
-Text following ">" are user inputs within the client program
-Text following "#" are comments
+[<list>] to list all rooms
+[<join> room_name] to join/create/switch to a room
+[<manual>] to show instructions
+[<json>] to send JSON
+[<quit>] to quit
 ```
+
+# enhance 
+* Add the <json> to the chat
+* Let it support ThreadPool.
